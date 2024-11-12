@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>MODAL VERBS</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="puntaje">
+                <img src="Tarea.png" alt="">
+                <span class="puntos" id="puntos">0</span>
+            </div>
+            <h1>MODAL VERBS</h1>
+            <div class="jugador">
+                <span class="nombre" id="nombre">Martín</span>
+                <img src="Logo.png" alt="">
+            </div>
+        </header>
+
+        <main class="juego">
+            <div class="contador-pregunta">
+                <span id="num-pregunta" class="num-pregunta">01</span>
+                /
+                <span> 5</span>
+            </div>
+            <div id="tiempo-restante" style="font-size: 18px; font-weight: bold;"></div>
+            <p id="txt-pregunta" class="pregunta">
+                ¿Texto de la pregunta 1?
+            </p>
+
+            <div class="opciones" id="opciones">
+                <button class="opcion" id="a">Opcion A</button>
+                <button class="opcion" id="b">Opcion B</button>
+                <button class="opcion" id="c">Opcion C</button>
+            </div>
+            <div id="mensaje-feedback" style="font-size: 18px; font-weight: bold;"></div>
+            <div id="contenedor-boton">
+                <button class="btn" id="siguiente">NEXT</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="juego.js"></script>
+</body>
+
+</html>
